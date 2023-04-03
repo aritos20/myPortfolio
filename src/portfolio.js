@@ -10,7 +10,7 @@ const about = {
   role: 'Desarrollador Web Full-Stack',
   description:
     'Hola, soy Aristidis Gianicopulos, Desarrollador Web Full-Stack. Me considero una persona con ganas de nunca parar de aprender y adaptarme a distintos entornos para así poder enriquecerme en todos los aspectos. También me gusta el trabajo en equipo y poder formar parte de grupos de trabajo para así poder aportar mi pequeño grano de arena y que los demás me aporten a mi sus conocimientos',
-  resume: 'https://drive.google.com/file/d/1oVrLl7XtWjf9swpFqFMcoi1sWIQbDrxA/view?usp=share_link',
+  resume: 'https://drive.google.com/file/d/1qAS-YuxxWIuD9llmMd1i00-Qw_dmU-XN/view?usp=share_link',
   social: {
     linkedin: 'https://www.linkedin.com/in/agianico/',
     github: 'https://github.com/aritos20',
