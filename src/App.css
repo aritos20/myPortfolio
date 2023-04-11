@@ -143,6 +143,11 @@ main {
   transform: translateY(-5px);
 }
 
+svg {
+  height: 24px;
+  width: 24px;
+}
+
 @media (max-width: 600px) {
   .section {
     margin-top: 4em;
