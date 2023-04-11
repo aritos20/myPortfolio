@@ -4,8 +4,6 @@ import './Skills.css';
 import { AiFillHtml5 } from 'react-icons/ai';
 import { SiCss3, SiSass, SiJavascript, SiTypescript, SiReact, SiRedux, SiNodedotjs, SiExpress, SiMongodb, SiMysql, SiGit, SiJest, SiFigma } from 'react-icons/si';
 
-const width = '150px';
-
 const skillsIcons = [
   {name: 'HTML', icon: <AiFillHtml5 />},
   {name: 'CSS', icon: <SiCss3 />},

@@ -1,3 +1,9 @@
+import oxygen from './assets/oxygen-shop.png';
+import HotelMiranda from './assets/hotel-miranda.png';
+import Dashboard from './assets/dashboard-hotel.png';
+import PhotoSnap from './assets/photo-snap.png';
+import backend from './assets/backen.png';
+
 const header = {
   // all the properties are optional - can be left empty or deleted
   homepage: 'https://aritos20.github.io/myPortfolio',
@@ -24,6 +30,7 @@ const projects = [
     name: 'Hotel Miranda Web Page',
     description:
       'Página web de un hotel lujoso, es una MPA con distintos apartados y hecha por un diseño a partir de FIGMA',
+    previewImg: HotelMiranda,
     stack: ['HTML', 'CSS', 'SASS', 'JavaScript'],
     sourceCode: 'https://github.com/aritos20/hotel-miranda-web-page',
     livePreview: 'https://aritos20.github.io/hotel-miranda-web-page/',
@@ -33,6 +40,7 @@ const projects = [
     description:
       'Página para poder gestionar el Back Office de un hotel desde las reservas hasta los empleados.',
     stack: ['React', 'Redux', 'Styled Components'],
+    previewImg: Dashboard,
     sourceCode: 'https://github.com/aritos20/hotel-miranda-dashboard',
     livePreview: 'https://aritos20.github.io/hotel-miranda-dashboard/',
   },
@@ -41,6 +49,7 @@ const projects = [
     description:
       'Es una API REST hecha con Node y Express para poder gestionar todos los datos y hacer la conexión con el Dashboard',
     stack: ['TypeScript', 'Node', 'Express', 'Mongo', 'JWT'],
+    previewImg: backend,
     sourceCode: 'https://github.com/aritos20/hotel-miranda-backend',
   },
   {
@@ -48,6 +57,7 @@ const projects = [
     description:
       'Aplicación Web para buscar y descargar imagenes de Stock. las imágenes que se obtienen provienen de Unsplash mediante su API',
     stack: ['React', 'Redux', 'MUI'],
+    previewImg: PhotoSnap,
     sourceCode: 'https://github.com/aritos20/photo-snap',
     livePreview: 'https://aritos20.github.io/photo-snap/',
   },
@@ -56,6 +66,7 @@ const projects = [
     description:
       'Landing Page básica hecha con HTML, CSS, SASS y JavaScript, es 100% responsive',
     stack: ['HTML', 'CSS', 'SASS', 'JavaScript'],
+    previewImg: oxygen,
     sourceCode: 'https://github.com/aritos20/photo-snap',
     livePreview: 'https://aritos20.github.io/photo-snap/',
   },

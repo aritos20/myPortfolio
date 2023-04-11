@@ -5,6 +5,8 @@ import './ProjectContainer.css'
 
 const ProjectContainer = ({ project }) => (
   <div className='project'>
+    <img src={project.previewImg} style={{width: '300px', marginBottom: '16px'}}></img>
+
     <h3>{project.name}</h3>
 
     <p className='project__description'>{project.description}</p>
